@@ -14,8 +14,8 @@ The 3 links are simulated and plotted in 3D to make sure the solution is exact.
 
 ## Arduino code:
 Necessary libraries 
-- nunchuck library: NintendoExtensionCtrl
-- servo speed library: VarSpeedServo
+* nunchuck library: NintendoExtensionCtrl
+* servo speed library: VarSpeedServo
 
 A wii nunchuck is used to dictate the position in 3D to be converted into angles for the servo
 
