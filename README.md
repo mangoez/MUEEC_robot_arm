@@ -16,6 +16,7 @@ https://www.researchgate.net/publication/328583527_A_Geometric_Approach_to_Inver
 * shoulder = angle of second servo
 * elbow = angle of the 3 servo
 
+
 ## MATLAB simulation code:
 The 3 links are simulated and plotted in 3D to make sure the geometric solution is exact.  
 
@@ -23,6 +24,7 @@ The 3 links are simulated and plotted in 3D to make sure the geometric solution 
 Necessary libraries 
 * nunchuck library: NintendoExtensionCtrl
 * servo speed library: VarSpeedServo
+
 A wii nunchuck is used to dictate the position in 3D to be converted into angles for the servo
 
 
