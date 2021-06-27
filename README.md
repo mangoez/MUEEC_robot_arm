@@ -28,20 +28,20 @@ Necessary libraries
 A wii nunchuck is used to dictate the position in 3D to be converted into angles for the servo
 
 
-**robot_control_geometric** 
+### robot_control_geometric
 Is the actual program used to calculate the servo angles in order to position the end effector in 3D space. 
 
 
-**nunchuck_only**
+### nunchuck_only
 Connect and print the values from the nunchuck to test the connection and values of the joystick _ buttons
 
 
-**set_servo_range** 
+### set_servo_range
 This is designed to be used with the calibrating tool we provided that gives you 5 degree resolution of where your servo is.
 Use that and this program to set the minimum and maximum values of your servo which correspond to 0 - 180 degrees for each individual servo. 
 
 
-**Servo test**
+### servo_test 
 Just checks the connection and literally run the servo between two positions, introduces the package for variable speed control of the servo. 
 
 
