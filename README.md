@@ -12,13 +12,13 @@ The functions are calculated by projecting the 3D robot arm onto a 2D plane to s
 This is the paper I based it off of, note I said BASED because some of the equations are WRONG...yeah...
 https://www.researchgate.net/publication/328583527_A_Geometric_Approach_to_Inverse_Kinematics_of_a_3_DOF_Robotic_Arm
 
-* base = angle of base servo
+* base = angle of first / base servo
 * shoulder = angle of second servo
-* elbow = angle of the 3 servo
+* elbow = angle of the third servo
 
 
 ## MATLAB simulation code:
-The 3 links are simulated and plotted in 3D to make sure the geometric solution is exact.  
+The 3 joints are simulated and plotted in 3D to make sure the geometric solution is exact.  
 
 ## Arduino code:
 Necessary libraries 
